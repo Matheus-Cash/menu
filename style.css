@@ -1,41 +1,54 @@
 
+/* Estilo do header */
 header {
     background-color: aliceblue;
-
+    text-align: center;  /* Centraliza o texto dentro do header */
+    padding: 20px;       /* Adiciona um espaçamento interno para o header */
 }
 
+/* Estilo do corpo (body) */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
+/* Estilo da navegação */
 nav {
     background-color: #333;
+    text-align: center; /* Garante que o menu fique centralizado */
 }
 
+/* Links gerais */
 a {
     text-decoration: none;
     color: antiquewhite;
 }
 
+/* Estilo da lista não ordenada */
 ul {
     text-align: center;
     color: aliceblue;
+    padding: 0; /* Remove o padding */
+    margin: 0;  /* Remove a margem */
 }
 
+/* Estilo do menu */
 .menu {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
+    display: flex;                /* Flexbox para alinhar os itens do menu */
+    justify-content: center;      /* Centraliza os itens */
+    align-items: center;          /* Alinha os itens na vertical */
 }
 
+/* Estilo dos itens do menu */
 .menu li {
-    margin: 0 20px;
+    margin: 0 20px;               /* Espaçamento entre os itens */
 }
 
+/* Estilo dos links do menu */
 .menu a {
     text-decoration: none;
     color: orange;
@@ -45,6 +58,7 @@ ul {
     text-align: center;
 }
 
+/* Efeito ao passar o mouse sobre os links do menu */
 .menu a:hover {
     background-color: #575757;
 }

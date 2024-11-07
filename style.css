@@ -16,7 +16,7 @@ body {
 /* Estilo da navegação */
 nav {
     background-color: #333;
-    text-align: center; /* Garante que o menu fique centralizado */
+    text-align: left; /* Garante que o menu fique centralizado */
 }
 
 /* Links gerais */
@@ -38,7 +38,7 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;                /* Flexbox para alinhar os itens do menu */
+    display: block;                /* Flexbox para alinhar os itens do menu */
     justify-content: center;      /* Centraliza os itens */
     align-items: center;          /* Alinha os itens na vertical */
 }
@@ -55,7 +55,7 @@ ul {
     font-size: 18px;
     padding: 14px 20px;
     display: block;
-    text-align: center;
+    text-align: left;
 }
 
 /* Efeito ao passar o mouse sobre os links do menu */

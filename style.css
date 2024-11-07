@@ -39,7 +39,7 @@ ul {
     margin: 0;
     padding: 0;
     display: block;                /* Flexbox para alinhar os itens do menu */
-    justify-content: center;      /* Centraliza os itens */
+    justify-content: flex-start;      /* Centraliza os itens */
     align-items: center;          /* Alinha os itens na vertical */
 }
 

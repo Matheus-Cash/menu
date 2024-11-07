@@ -27,7 +27,7 @@ a {
 
 /* Estilo da lista não ordenada */
 ul {
-    text-align: center;
+    text-align: right;
     color: aliceblue;
     padding: 0; /* Remove o padding */
     margin: 0;  /* Remove a margem */

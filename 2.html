@@ -5,55 +5,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-
-<body>
     <style>
+        /* Estilos para o header */
         header {
-            top: 40;
+            position: fixed;
+            top: 40px; /* Ajusta a distância do topo */
+            left: 0;
+            right: 0;
+            background-color: #333; /* Cor de fundo para o header */
+            color: white; /* Cor do texto */
+            padding: 10px;
+            text-align: center;
+            z-index: 10; /* Garante que o header fique sobre outros elementos */
         }
 
-        .navabar {
+        /* Estilos para a barra de navegação */
+        .navbar {
             overflow: hidden;
             background-color: black;
             position: fixed;
-            top: 0;
+            top: 80px; /* Ajusta para ficar logo abaixo do header */
             width: 100%;
-            font-size: 12px;
+            font-size: 14px;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            z-index: 5; /* Garante que a barra de navegação fique abaixo do header */
+        }
+
+        /* Estilos para os links dentro da navbar */
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        /* Efeito quando passa o mouse sobre os links */
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Ajuste para o conteúdo da página principal */
+        .main {
+            margin-top: 120px; /* Dá espaço para o header e a navbar fixada */
+            padding: 20px;
+        }
+
+        /* Ajuste para os parágrafos */
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        /* Estilo para os títulos */
+        h1, h2, h3 {
+            font-family: 'Arial', sans-serif;
         }
     </style>
-    <header> MENU FIXADO</header>
-    <div class="navbar">
-        <a href="">sucos</a>
-        <a href="">drinks</a>
-        <a href="">refrigerantes</a>
-        <a href="">bebidas alcolicas</a>
-        <a href="index.html">voltar</a>
-    </div>
-    <div class="main">
-        <h1>MENU FIXADO NO TOPO DA PAGINA</h1>
-        <h2>ROLE A PAGINA PARA VER O EFEITO</h2>
-        <h3>A BARRA DE NAVEGAÇAO navbar FICA FIXADA NO TOPO DA PAGINA</h3>
-    </div>
-    <p>Lorem ipsum dolor sit amet. Non magnam Quis est suscipit placeat qui modi quia ut repudiandae nihil ea architecto
-        unde aut consequatur omnis qui quam magni? Eum sunt molestiae ab dolores dicta ea quod dicta eos distinctio
-        perspiciatis. Ut enim alias id ipsa odio ea aliquid architecto. Non asperiores suscipit non internos dolor est
-        obcaecati cupiditate sed voluptas suscipit sit suscipit impedit non obcaecati tempora? </p>
-    <p>Non veniam officiis aut quia placeat et consequatur aliquid sed recusandae obcaecati? In eius nostrum ut dolor
-        sunt eos minus aperiam ut ullam necessitatibus. In aliquid quidem vel quae facilis et exercitationem libero sit
-        nihil voluptatem ea sint commodi. </p>
-    <p>Et impedit voluptatem cum nulla quia ut possimus quod et velit dolorem. Id quia ipsa est consequatur dolores qui
-        saepe alias qui nesciunt odio qui suscipit sequi qui iure rerum. Id aliquid nihil rem exercitationem aspernatur
-        ut minus eligendi. Sed pariatur accusantium et ipsam nesciunt eos quos ipsam ea expedita magnam sit quia officia
-        et cupiditate itaque qui veniam veritatis. </p>
-    <p>Hic quae aperiam qui quae perspiciatis et nulla dicta! Ut sint iusto ut dolor deleniti aut blanditiis officiis
-        quo libero incidunt sed rerum nihil eum totam libero in modi similique. </p>
-    <p>Id vitae dignissimos vel sunt cupiditate est nesciunt maiores hic dolore molestias 33 doloremque ullam ut
-        explicabo laborum. Nam dignissimos maxime vel quidem consequatur ut ipsum dolores aut atque aperiam? </p>
-    <p>Ex quisquam iusto quo eaque repellat ut quas molestiae aut laudantium aspernatur? In quidem magni hic explicabo
-        exercitationem et iste sint. </p>
+</head>
 
+<body>
+    <!-- Header fixado no topo -->
+    <header>MENU FIXADO</header>
+
+    <!-- Barra de navegação fixa -->
+    <div class="navbar">
+        <a href="">Sucos</a>
+        <a href="">Drinks</a>
+        <a href="">Refrigerantes</a>
+        <a href="">Bebidas Alcoólicas</a>
+        <a href="index.html">Voltar</a>
+    </div>
+
+    <!-- Conteúdo principal da página -->
+    <div class="main">
+        <h1>MENU FIXADO NO TOPO DA PÁGINA</h1>
+        <h2>ROLE A PÁGINA PARA VER O EFEITO</h2>
+        <h3>A BARRA DE NAVEGAÇÃO FICA FIXADA NO TOPO DA PÁGINA</h3>
+    </div>
+
+    <!-- Conteúdo adicional -->
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque varius purus ut orci convallis, in varius est luctus.</p>
+    <p>Nullam viverra, metus vel vestibulum dapibus, magna lorem convallis nisl, at volutpat risus arcu et lorem.</p>
+    <p>Integer tristique purus at velit ultricies, id suscipit felis viverra. Etiam vulputate, tortor ac varius scelerisque, elit felis mollis erat, non tincidunt turpis augue vitae orci.</p>
+    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed a eros urna. Curabitur vel augue libero. Curabitur consectetur felis vel sapien vestibulum, non pretium nulla lacinia.</p>
+    <p>Donec auctor ligula nec orci posuere, sit amet aliquam elit dictum. Cras sollicitudin nisl neque, at vulputate libero venenatis eu.</p>
 </body>
 
 </html>

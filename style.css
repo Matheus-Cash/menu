@@ -55,6 +55,7 @@ ul {
     padding: 14px 20px;
     display: block;
     text-align: right;
+    justify-content: flex-start;
 }
 
 
